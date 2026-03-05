@@ -3,7 +3,7 @@
 시놀로지 나스(Synology NAS) 도커 환경에서 동작하는 **웰스토리 식단 자동 알림 봇**입니다.  
 매일 정해진 시간에 삼성전기 부산 사업장의 식사 메뉴를 가져와 매터모스트(Mattermost) 채널로 전송합니다.
 
-![식단 봇 실행 화면](./screenshot.png)
+<img width="1529" height="885" alt="Image" src="https://github.com/user-attachments/assets/4ae7aac5-57b1-40b8-b1be-d003f534b423" />
 
 ## ✨ 주요 기능
 - **자동 로그인:** 웰스토리(Welstory) 계정을 통한 자동 세션 관리 및 로그인
@@ -12,7 +12,7 @@
 - **나스 최적화:** 시놀로지 Container Manager 및 작업 스케줄러를 통한 완전 자동화 운영
 
 ## 🛠 기술 스택
-- **Language:** Node.js 20 (ES Modules)
+- **Language:** Node.js 22 (ES Modules)
 - **Library:** `welstory-api-wrapper`, `axios`, `dotenv`
 - **Infrastructure:** Docker, Synology NAS (Container Manager)
 
